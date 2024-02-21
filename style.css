@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding: 25px;
+    box-sizing: 0 1px 8px #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+main > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: 5px;
+    accent-color: rgb(77, 4, 77);
+    border-color: rgb(77, 4, 77);
+}
+
+input [type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
+
+input [type=range] {
+    width: 90%;
+}
+
+button {
+    background-color: rgb(77, 4, 77);
+    cursor: pointer;
+    color: rgb(206, 219, 214);
+    border: none;
+    padding: 5px;
+}
+

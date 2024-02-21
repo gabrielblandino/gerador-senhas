@@ -1,0 +1,1 @@
+const passInput = document.querySelector
